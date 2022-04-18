@@ -8,6 +8,20 @@ ul{
     float: right;
 }
  
-input{
-    width: 100px;
+.form-control{
+    width: 500px;
+    margin: 50px 50px 50px;
+}
+
+a{
+    text-decoration: none;
+    float: right;
+}
+
+.navbar ul li {
+    text-decoration: none;
+    display: inline-block;
+    
+    padding-right: 10px;
+    font-weight: bold;
 }

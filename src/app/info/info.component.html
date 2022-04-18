@@ -1,3 +1,11 @@
+ <div class="navbar"> 
+   <ul>
+     <li><a href="">homr</a></li>
+     <li><a href="">repos</a></li>
+     <li><a href="">about</a></li>
+   </ul>
+ </div>
+
 <form>
    
       <input type="text" class="form-control" placeholder="Enter github username you want to search..." [(ngModel)]="myusername" name="myusername"  style="text-align:center"> 
@@ -8,5 +16,6 @@
   <div *ngIf="user" >
          <p>name:{{user.name}}</p>
          <p>{{user.avatar_url}}</p>
+         <p>{{user.folowing}}</p>
          <p>{{user.folowers}}</p>
   </div>
