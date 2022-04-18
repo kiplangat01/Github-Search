@@ -1,6 +1,12 @@
-<form class="well pt-4 d-flex" style="width: 800px;">
-    <div class="form-group">
-      <input type="text" class="form-control" placeholder="Enter github username you want to search..." [(ngModel)]="username" name="username"  style="text-align:center"> 
-    </div>&nbsp;&nbsp;
+<form>
+   
+      <input type="text" class="form-control" placeholder="Enter github username you want to search..." [(ngModel)]="myusername" name="myusername"  style="text-align:center"> 
+   
     <div><button class="btn btn-success" (click)="searchUser()">Search</button></div>
   </form>
+
+  <div *ngIf="user" >
+         <p>name:{{user.name}}</p>
+         <p>{{user.avatar_url}}</p>
+         <p>{{user.folowers}}</p>
+  </div>
