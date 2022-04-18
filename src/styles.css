@@ -16,18 +16,22 @@ ul{
 a{
     text-decoration: none;
     float: right;
+    color: white;
+        
+    
 }
 
 .navbar ul li {
     text-decoration: none;
     display: inline-block;
-    
     padding-right: 10px;
-    float: right;
+   
+    
     padding-top: 10px;
     font-weight: bold;
 }
 
 .navbar{
     background-color: rgb(0, 0, 15);
+    padding-left: 1200px;
 }
