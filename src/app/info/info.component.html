@@ -6,11 +6,11 @@
    </ul>
  </div>
 
-<form>
+<form class="search">
    
       <input type="text" class="form-control" placeholder="Enter github username you want to search..." [(ngModel)]="myusername" name="myusername"  style="text-align:center"> 
    
-    <div><button class="btn btn-success" (click)="searchUser()">Search</button></div>
+    <div><button class="btn btn-success text-center" (click)="searchUser()">Search</button></div>
   </form>
 
   <div *ngIf="user" >
