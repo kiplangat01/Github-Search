@@ -15,7 +15,11 @@
 
   <div *ngIf="user" >
          <p>name:{{user.name}}</p>
-         <p>{{user.avatar_url}}</p>
-         <p>{{user.folowing}}</p>
-         <p>{{user.folowers}}</p>
+         <img src="{{user.avatar_url}}" alt="">
+         <p>{{user.following}}</p>
+         <p>{{user.followers}}</p>
+  </div>
+
+  <div *ngFor="let my ">
+
   </div>
