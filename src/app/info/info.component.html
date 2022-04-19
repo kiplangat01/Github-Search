@@ -16,8 +16,10 @@
   <div  class="nest" *ngIf="user" >
          <p id="styl" class="bg-secondary">name:{{user.name}}</p>
          <img class="image" src="{{user.avatar_url}}" alt="">
-         <p id="styl" class="bg-danger p-3">following{{user.following}}</p>
-         <p id="styl" class="bg-warning ">followers{{user.followers}}</p>
+        
+          <p id="styl" class="bg-danger t-5">following:{{user.following}}</p>
+          <p id="styl" class="bg-warning t-5">followers:{{user.followers}}</p>
+        
   </div>
 
   <div class="container" style="text-align: center;">
