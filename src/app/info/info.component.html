@@ -20,6 +20,32 @@
          <p>{{user.followers}}</p>
   </div>
 
-  <div *ngFor="let my ">
+  <div class="container" style="text-align: center;">
 
-  </div>
+    <div class="row" >
+        <div class="col-md-6" *ngFor="let repos of repository" appHighlight>
+            <div class="card mt-3">
+
+                <p  class="text-center pt-4" style="font-weight: 700;">
+                   <strong>{{repos.name}}</strong> 
+                </p>
+                <p>
+                    {{repos.description}}
+                </p>
+
+                <p>
+                    {{repos.language}}
+                </p>
+                <p>
+                   Created on {{repos.created_at | date}}
+                </p>
+                <div class="card-footer text-center">
+                    <a href="{{repos.html_url }}" class="pb-2" target="_blank"><button class="btn btn-success">check repo</button> </a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
