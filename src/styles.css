@@ -53,16 +53,34 @@ a{
     /* margin-left: 650px; */
 }
 
-.text-center{
+#styl{
     width: 100px;
     text-align: center;
+   
     height: 30px;
     font-weight: bold;
     padding-bottom: 20px;
     border-radius: 10px;
 }
 
-.p-1{
-    width: fit-content;
+
+
+
+.nest{
+    text-align: center;
+    /* margin-left: 350px; */
 }
 
+#styl{
+    margin-left: 700px;
+    margin-top: 20px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.bg-secondary{
+    width: 30px;
+    padding-bottom: 10px;
+    padding: auto;
+    /* padding-bottom: 20px; */
+}
