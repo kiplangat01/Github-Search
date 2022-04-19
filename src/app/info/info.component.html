@@ -13,8 +13,8 @@
     <div><button class="btn btn-success text-center" (click)="searchUser()">Search</button></div>
   </form>
 
-  <div  class="nest" *ngIf="user" >
-         <p id="styl" class="bg-secondary">name:{{user.name}}</p>
+  <div  class="nest container-fluid col-md-12" *ngIf="user" >
+         <p id="styl" class="bg-secondary search">name:{{user.name}}</p>
          <img class="image" src="{{user.avatar_url}}" alt="">
         
           <p id="styl" class="bg-danger t-5">following:{{user.following}}</p>
