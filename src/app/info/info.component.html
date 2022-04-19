@@ -16,8 +16,8 @@
   <div *ngIf="user" >
          <p>name:{{user.name}}</p>
          <img class="image" src="{{user.avatar_url}}" alt="">
-         <p>{{user.following}}</p>
-         <p>{{user.followers}}</p>
+         <p class="bg-warning text-center">following{{user.following}}</p>
+         <p class="bg-danger text-center">followers{{user.followers}}</p>
   </div>
 
   <div class="container" style="text-align: center;">
