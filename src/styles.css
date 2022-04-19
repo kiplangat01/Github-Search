@@ -74,21 +74,22 @@ a{
 #styl{
     margin-left: 700px;
     margin-top: 20px;
-    padding: 10px;
-    padding-bottom: 20px;
+    width: 150px;
+    height: 40px;
+    /* padding: 30px; */
+    /* padding-bottom: 20px; */
 }
 
 .bg-secondary{
     width: 30px;
-    padding-bottom: 10px;
-    padding: auto;
-    padding-bottom: 20px;
+    padding-top: 7px;
 }
 
 .card{
     background-color: rgb(34, 33, 37);
     /* font-weight: bold; */
     border-radius: 20px;
-    margin: 20px;
+    box-shadow: 10px 10px 10px 10px rgb(104, 99, 96);
+    margin: 60px;
     color: white;
 }
