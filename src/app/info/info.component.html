@@ -6,7 +6,7 @@
    </ul>
  </div>
 
-<form class="search">
+<form class="search container-fluid">
    
       <input type="text" class="form-control" placeholder="Enter github username you want to search..." [(ngModel)]="myusername" name="myusername"  style="text-align:center"> 
    
@@ -14,15 +14,15 @@
   </form>
 
   <div  class="nest" *ngIf="user" >
-         <p id="styl" class="bg-secondary text-center ">name:{{user.name}}</p>
-         <img class="image" src="{{user.avatar_url}}" alt="">
-         <p id="styl" class="bg-warning text-center">following{{user.following}}</p>
-         <p id="styl" class="bg-primary text-center">followers{{user.followers}}</p>
+         <p id="styl" class="bg-secondary">name:{{user.name}}</p>
+         <img class="image" src="{{user.avatar_ur p-9" alt="">
+         <p id="styl" class="bg-danger p-3">following{{user.following}}</p>
+         <p id="styl" class="bg-warning ">followers{{user.followers}}</p>
   </div>
 
   <div class="container" style="text-align: center;">
 
-    <div class="row" >
+    <div class="row container-fluid " >
         <div class="col-md-6" *ngFor="let repos of repository" appHighlight>
             <div class="card mt-3">
 
