@@ -46,3 +46,9 @@ a{
 .search{
     text-align: center;
 }
+
+.image{
+    border-radius: 30px;
+    height: 350px;
+    margin-left: 650px;
+}
