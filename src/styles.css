@@ -25,7 +25,7 @@ a{
 }
 
 .fa-brands{
-    font-size: 50px;
+    font-size: 100px;
 }
 
 .icon{
@@ -60,7 +60,7 @@ a{
     width: fit-content;
     border-radius: 30px;
     /* position: relative; */
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
     /* left: 350px; */
     /* margin-left: 700px; */
     /* margin-left: 60px; */
@@ -68,16 +68,19 @@ a{
     text-align: center;
     margin: 70px;
     padding: 30px;
-    margin-left: 370px;
+    margin-left: 300px;
 
 }
 
 #styl{
     /* margin-left: 700px; */
-    margin-top: 170px;
+    position: relative;
+    top:  130px;
+    left: 50px;
     padding-top: 10px;
     width: 150px;
     height: 40px;
+    margin: 20px;
 }
 
 
@@ -90,3 +93,12 @@ a{
     color: white;
 }
  
+.bg-primary{
+    position: relative;
+    top: 250px;
+    right: 400px; 
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 7px;
+    height: fit-content;
+}
